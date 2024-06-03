@@ -11,7 +11,7 @@ const readInput = readline.createInterface({
 export async function createAuction(batch, bee, core, rl, swarm) {
 
     console.log('Creating Auction...')
-    const itemValue = { 'unit': 'USDt', 'status': 'live' }
+    const itemValue = { 'unit': 'USDt', 'Status': 'live' }
     const roomDetails = {}
     rl.input.setMode(tty.constants.MODE_RAW)
 
