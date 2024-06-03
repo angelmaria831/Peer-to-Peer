@@ -25,6 +25,6 @@ The idea is to update the name of user(publickey) and bid price (highestBidName,
 
 When creator sends 'closed' message , the bid is finalized and notified to all peers, updating the status in hyperbee.
 
-Since the time is limited,further updates like validation,authentication and better code standardization could be done. Also, had some queries of updating the existing data of hyperbee. I have implemented with bee.put() which has some issues, though insertion worked fine.
+Since the time is limited,further updates like validation,authentication and better code standardization could be done. Also, had some queries of updating the existing data of hyperbee. I have implemented with bee.put() which has updation issues, though insertion worked fine.
 
 
