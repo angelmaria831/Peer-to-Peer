@@ -10,6 +10,8 @@ Similarly, in another terminal use room key as input as below :
 
 ![peer-client](https://github.com/angelmaria831/Peer-to-Peer/assets/104212477/b875f3fe-6123-4209-b8f9-b3bc8b262372)
 
+This would allow to join the auction room and fetch item details from hyperbee.
+
 The roomdetails are stored in hyperbee as :
 roomkey ---> ItemNumber,creator,status,highestBidName,highestBidPrice
 
