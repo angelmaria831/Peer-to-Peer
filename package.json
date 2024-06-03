@@ -1,0 +1,26 @@
+{
+  "name": "auction-peer-app",
+  "main": "index.js",
+  "type": "module",
+  "pear": {
+    "name": "auction-peer-app",
+    "type": "terminal"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "brittle": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "pear dev",
+    "test": "brittle test/*.test.js"
+  },
+  "dependencies": {
+    "b4a": "^1.6.6",
+    "bare-process": "^2.1.1",
+    "bare-readline": "^1.0.5",
+    "bare-tty": "^3.4.0",
+    "corestore": "^6.18.2",
+    "hyperbee": "^2.19.6",
+    "hyperswarm": "^4.7.14"
+  }
+}
