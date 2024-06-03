@@ -63,7 +63,7 @@ rl.on('data', line => {
 })
 
 if(argVal == 'create')createAuction(batch, bee, core, rl, swarm)
-    else joinAuction(core, swarm, bee, key)
+    else joinAuction(core, swarm, bee, argVal)
 
 
 function sendMessage(message) {
