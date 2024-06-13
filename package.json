@@ -21,6 +21,6 @@
     "bare-tty": "^3.4.0",
     "corestore": "^6.18.2",
     "hyperbee": "^2.19.6",
-    "hyperswarm": "^4.7.14"
+    "hyperswarm": "^4.7.15"
   }
 }
