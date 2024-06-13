@@ -2,13 +2,13 @@
 
 A peer-to-peer auction terminal application using Hyperswarm-Hypercore-Hyperbee.
 
-To start the app, in one terminal `run pear dev -s /tmp/bd5 . create` which would give output as below:
+To start the app, in one terminal `run pear dev -s /tmp/bid1 . create` which would give output as below:
 
-![peer-server](https://github.com/angelmaria831/Peer-to-Peer/assets/104212477/0b6b81ed-20c2-4f40-91ee-2ca80197415a)
+![create](https://github.com/angelmaria831/Peer-to-Peer/assets/104212477/8091aa86-2e11-4868-a0f5-38e317842041)
 
 Similarly, in another terminal use room key as input as below :
 
-![peer-client](https://github.com/angelmaria831/Peer-to-Peer/assets/104212477/b875f3fe-6123-4209-b8f9-b3bc8b262372)
+![join](https://github.com/angelmaria831/Peer-to-Peer/assets/104212477/2726e4af-ad4a-4343-bd3a-f23071ee1135)
 
 This would allow to join the auction room and fetch item details from hyperbee.
 
@@ -19,8 +19,11 @@ and itemdetails as :
 ItemNumber ---> Name,Price,Unit,status
 
 The idea is to update the name of user(publickey) and bid price (highestBidName,highestBidPrice) as peers interact to each other and if bid price is higher than existing value. Only creator would be allowed to update  the hyperbee
+![bidhightlighted](https://github.com/angelmaria831/Peer-to-Peer/assets/104212477/865f2010-0d45-4c99-b349-f5b0b7975758)
 
-![peer-to-peer](https://github.com/angelmaria831/Peer-to-Peer/assets/104212477/95baa744-43c4-4a16-bf6e-0ebda9fd23f3)
+And the owner can close the bid by typing message 'close'. The highest bid will be finalized and message will be send to all other peers.
+![close](https://github.com/angelmaria831/Peer-to-Peer/assets/104212477/2b3ea0b4-9527-407b-9464-a9b70ed51429)
+
 
 
 When creator sends 'closed' message , the bid is finalized and notified to all peers, updating the status in hyperbee.
